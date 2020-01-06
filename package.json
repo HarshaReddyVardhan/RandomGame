@@ -1,5 +1,5 @@
 {
-    "name": "harsha-bz",
+    "name": "RandomGame",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,14 +8,14 @@
   },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/HarshaReddyVardhan/Harsha-bz.git"
+      "url": "git+https://github.com/HarshaReddyVardhan/RandomGame.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/HarshaReddyVardhan/Harsha-bz/issues"
+      "url": "https://github.com/HarshaReddyVardhan/RandomGame/issues"
     },
-    "homepage": "https://github.com/HarshaReddyVardhan/Harsha-bz#readme",
+    "homepage": "https://github.com/HarshaReddyVardhan/RandomGame#readme",
     "dependencies": {
       "express": "^4.17.1"
     }
