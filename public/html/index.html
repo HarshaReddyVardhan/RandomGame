@@ -5,7 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
-    
+      .button {
+    background-color: rgb(2, 30, 3);
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .jumbotron{
+    background-color: #8A2BE2  
+  }
+  .jumbotron-fluid{
+    background-color: #add8e6;
+  }
     </style>
     <link rel="stylesheeet" href="css/site.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,16 +30,22 @@
   <body>
     <!-- <br><br> -->
     <div class="jumbotron"   style="background-color: #a9a9a9 ;">
-      <h1  align='center' > <font color="red" size="14">Try Your Luck!! </font></h1>
+      <h1  align='center' > <font color="red" size="14">Check Your Luck!! </font></h1>
     </div>
      
      <div align='center'>
        <!-- <button onclick="document.getElementById('demo').innerHTML = getRndInteger(0,10)">LUCKY YOU</button> -->
      <!-- </div> -->
      <!--  <p id='demo'></p> --> 
-     <button class="button" onclick="document.getElementById('demo').innerHTML = getRndInteger(0,10)">TRY</button>
-
-<p id="demo"><font size="26"></font></p>
+     <button class="button" onclick="document.getElementById('demo').innerHTML = getRndInteger(0,10)">TRY LUCK</button>
+    </div>
+    <br><br>
+<div  class="jumbotron-fluid" align='center'>
+  <h1 >
+    <font color="purple" size='26'>
+    <p id="demo" ></p>
+  </font>
+  </h1>
 </div>
 <script>
 function getRndInteger(min, max) {
